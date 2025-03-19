@@ -5,7 +5,7 @@
 <h2>Description</h2>
 Project consisted of: 
 
-- <b>Cisco CLI</b>
+- <b>Supported the deployment and configuration of a multi-site LAN, including switch and router setup, VLAN assignments, trunking, and EtherChannel to ensure device connectivity and network reliability.</b>
 - <b>Cisco CLI</b>
 - <b>Cisco CLI</b>
 - <b>Cisco CLI</b>
