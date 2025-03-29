@@ -25,6 +25,9 @@ Project consisted of:
 
 This network is a 3-tier LAN architecture spanning two offices—Office A and Office B—connected via a core layer. R1 serves as the gateway to the internet with two redundant connections for high availability.
 
+![Screenshot 2025-03-29 013040](https://github.com/user-attachments/assets/0bdcd447-c4c8-4534-8be6-f3d18ad9c153)
+
+
 Part 1: Device security was implemented with local user authentication, console login restrictions, inactivity timeouts, and synchronous logging. Passwords were hashed using type 9 (or type 5 if unavailable).
 
 Part 2: Layer 2 EtherChannels were established—PAgP in Office A and LACP in Office B. All links between Access and Distribution switches were trunked with VLANs 10, 20, 30/40, 99, and native VLAN 1000. VTPv2 was configured with domain jeremysitlab. VLANs were created and named, and DTP was disabled. Unused ports were administratively shut down.
